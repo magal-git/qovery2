@@ -1,11 +1,15 @@
 ---
 application:
-  name: "qovery2"
-  project: "mygit"
+  name: "qovery22"
+  project: "mygitproj"
   organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "strapi"
+  version: "10"
 routers:
-- name: "main-qovery2"
+- name: "main-qovery22"
   routes:
-  - application_name: "qovery2"
+  - application_name: "qovery22"
     paths:
     - "/*"
