@@ -1,0 +1,11 @@
+---
+application:
+  name: "qovery2"
+  project: "mygit"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-qovery2"
+  routes:
+  - application_name: "qovery2"
+    paths:
+    - "/*"
